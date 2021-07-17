@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "corxalpha695c56ac": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
