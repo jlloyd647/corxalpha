@@ -1,38 +1,59 @@
 .App {
-  text-align: center;
+  background: blue;
+  width: 100%;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Sidebar {
+  position: fixed;
+  margin-left: 1vh;
+  padding-left: 1vh;
+  margin-top: 5vh;
+  width: 8vh;
+  height: 90vh;
+  background: #192f3e;
+  border-radius: 25px;
+  box-shadow: 5px 0px 10px rgba(0,0,0,.5);
+  padding-top: 5vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navButton {
+  
+  margin-top: 2vh;
+  padding: 1vh 1vh 1vh 1vh;
+  border-radius: 15px;
+  margin-right: 1vh;
+}
+
+.navButton a {
+  text-decoration: none;
+  color: #e0ddd2;
+}
+
+.navButton:hover {
+  background: #203c4e;
+}
+
+.navButtonPshed {
+  color: #203c4e;
+}
+
+.navIcon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Main {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
